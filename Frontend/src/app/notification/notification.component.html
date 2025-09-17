@@ -1,0 +1,12 @@
+<div>
+  <h2>Send Notification</h2>
+  <input [(ngModel)]="content" placeholder="Message" />
+  <button (click)="send()">Send Notification</button>
+
+
+  <ul>
+    <li *ngFor="let n of list">
+      <strong>{{n.messageId}}</strong> — {{n.content}} — <em>{{n.status}}</em>
+    </li>
+  </ul>
+</div>
