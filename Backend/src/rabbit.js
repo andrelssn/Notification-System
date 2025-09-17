@@ -1,7 +1,7 @@
 const amqp = require('amqplib');
-require('dotenv').config(); // 👈 Adicione esta linha no topo do arquivo
+require('dotenv').config();
 
-const RABBIT_URL = process.env.RABBIT_URL; // 👈 Use a variável de ambiente
+const RABBIT_URL = process.env.RABBIT_URL;
 const INPUT_QUEUE = 'queue.notification.input.ander-sants';
 const STATUS_QUEUE = 'queue.notification.status.ander-sants';
 
