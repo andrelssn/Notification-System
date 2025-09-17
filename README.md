@@ -1,5 +1,12 @@
 # Notifications System
 
+### Mensagem do Desenvolvedor
+```bash
+Por ter pouco tempo de desafio, não desenvolvi uma interface estilizada,
+foquei 100% na funcionalidade do front-end e backend, peço que ignore este fator se possível.
+
+Muito obrigado e espero que gostem! Para mim foi uma experiência desafiadora.
+```
 
 ## Requirements
 - Node 18+
